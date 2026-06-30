@@ -44,7 +44,7 @@ function Reviews() {
 
       <button
         onClick={() => setShowAll((v) => !v)}
-        className="w-7xl mx-[150px] px-[10px] mt-4 bg-teal-400 hover:bg-teal-500 text-white text-sm font-semibold rounded-full py-3 transition-colors"
+        className="block mx-auto mt-4 px-6 sm:px-8 py-2.5 sm:py-3 bg-teal-400 hover:bg-teal-500 text-white text-xs sm:text-sm font-semibold rounded-full transition-colors"
       >
         {showAll ? "Show Fewer Reviews" : "Show All Reviews"}
       </button>

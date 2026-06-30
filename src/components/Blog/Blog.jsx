@@ -11,7 +11,7 @@ function Blog({ repeat = 1, showHeader = true }) {
 
       {showHeader && (
         <div className="flex items-center gap-10 mb-14">
-          <h2 className="text-3xl font-bold text-[#2f3b63]">
+          <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold text-[#2f3b63]">
             Health Blog
           </h2>
 

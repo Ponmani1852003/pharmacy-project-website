@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import ScrollToTop from "./components/ScrollToTop";
 import MainLayout from "./layouts/MainLayout.jsx";
 
 // Home Pages
@@ -25,6 +25,7 @@ import PaymentPage from "./pages/PaymentPage.jsx";
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<MainLayout />}>
           {/* Default Home Page */}

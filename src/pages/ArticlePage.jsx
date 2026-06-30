@@ -40,28 +40,28 @@ export default function ArticlePage() {
     <>
       <Breadcrumb trail={["Home", "Health Blog", "Staying a Woman"]} />
 
-      <section className="max-w-7xl mx-auto px-4 py-6">
+      <section className="max-w-7xl mx-auto px-4 py-4 sm:py-6 [&_img]:mx-auto [&_img]:block">
         <ArticleHero title={articleTitle} />
         <ArticleMeta />
 
-        <div className="flex flex-col lg:flex-row gap-10 mt-2">
-          <div className="lg:w-[280px] shrink-0">
+        <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 lg:gap-10 mt-2">
+          <div className="lg:w-[280px] shrink-0 flex flex-col items-center lg:items-stretch">
             <ArticleSidebar />
           </div>
 
           <div className="flex-1 min-w-0">
             <ArticleBody />
           </div>
-        </div>
 
-        <div className="mt-10 space-y-10">
+        </div>
+        <div className="mt-6 sm:mt-8 lg:mt-10 space-y-6 sm:space-y-8 lg:space-y-10">
           <ArticleShare />
           <RelatedArticles />
 
           <div>
             <CommentForm />
 
-            <div className="max-w-2xl mt-6">
+            <div className="max-w-2xl mx-auto mt-4 sm:mt-6">
               {comments.map((comment, i) => (
                 <ReviewItem key={i} review={comment} />
               ))}

@@ -36,7 +36,7 @@ function Partners() {
       {/* Header */}
       <div className="flex justify-between items-center ">
 
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
+        <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold text-gray-800">
           Our Partners
         </h2>
 

@@ -1,13 +1,7 @@
 import { useState } from 'react'
 import { ImageOff } from 'lucide-react'
 
-/**
- * Renders one license page image.
- * Drop your Figma-exported PNGs into the `public/` folder using the
- * file names below (or change `src` to whatever you exported):
- *   public/license-1.png  -> front page of the license
- *   public/license-2.png  -> back page / appendix
- */
+
 export default function LicenseImage({ src, alt }) {
   const [failed, setFailed] = useState(false)
 

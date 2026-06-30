@@ -3,7 +3,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 function SectionHeader() {
   return (
     <div className="flex justify-between items-center py-6">
-      <h2 className="text-4xl font-bold text-gray-800">
+      <h2 className="text-2xl font-bold text-gray-800 md:text-3xl lg:text-4xl">
         Product of the Month
       </h2>
 
